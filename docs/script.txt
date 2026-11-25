@@ -1,3 +1,19 @@
+create database Enem_simulado_DB;
+use Enem_simulado_DB;
+
+CREATE TABLE meta_simulado_enem (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    nome_aluno VARCHAR(100) NOT NULL,
+    curso_desejado VARCHAR(100) NOT NULL,
+    nota_corte_alvo FLOAT NOT NULL,
+    nota_humanas FLOAT NOT NULL,
+    nota_natureza FLOAT NOT NULL,
+    nota_matematica FLOAT NOT NULL,
+    nota_linguagens FLOAT NOT NULL,
+    nota_redacao FLOAT NOT NULL,
+    media_final FLOAT NOT NULL,
+    atingiu_meta INT NOT NULL
+);
 
 
 

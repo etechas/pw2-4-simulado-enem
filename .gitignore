@@ -22,3 +22,9 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+<<<<<<< HEAD
+=======
+target/
+.idea/
+*.iml
+>>>>>>> 8e1ee6f (Implementa API REST MetaSimuladoEnem com SQL Server)
